@@ -1,5 +1,6 @@
 # OS_Pthreads-Synchronization
 숭실대학교 운영체제 2020 가을학기 - 과제4 : Pthread  
+  
 본 과제의 목표는 다중 쓰레드 프로그래밍의 기본 개념을 이해하고, lock pthread 사용자 수준 쓰레드 라이브러리를 활용하여 조건 변수를 사용하는 쓰레드 프로그램을 구현하는 것입니다.  
 
 **쓰레드1 : 마스터 & 워커 쓰레드 풀**  
@@ -13,6 +14,7 @@
 pthread를 이용하여 세마포어를 구현하기 위해 SSU_Sem이라는 구조체를 정의 합니다.이 안에는 counter 정수형 변수가 있습니다.
 
 Soongsil University. Operating System 2020-2 - Assignment#4 : Pthread  
+  
 basics of multi-threaded programming, and synchronizing multiple threads using locks and condition variables.  
   
 **Thread1 : Master & Worker Thread Pool**  
