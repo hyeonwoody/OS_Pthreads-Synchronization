@@ -3,10 +3,10 @@ Soongsil University. Operating System 2020-2 - Assignment#4 : Pthread
 
 basics of multi-threaded programming, and synchronizing multiple threads using locks and condition variables.  
   
-**Thread1 : Master Worker Thread Pool**  
+**Thread1 : Master & Worker Thread Pool**  
 master produce numbers and place them in a buffer, and worker threads consume them.  
   
-**Thread2 : R eader Writer Locks**  
+**Thread2 : Reader-Writer Locks**  
 an application where multiple threads of a process wish to read and write data shared between them.  
   
 **Thread3 : Semaphores**  
